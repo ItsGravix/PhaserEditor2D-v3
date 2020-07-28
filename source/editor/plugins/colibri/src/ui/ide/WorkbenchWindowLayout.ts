@@ -1,6 +1,6 @@
 namespace colibri.ui.ide {
 
-    const TOOLBAR_HEIGHT = 40;
+    const TOOLBAR_HEIGHT = 60;
 
     export class WorkbenchWindowLayout implements controls.ILayout {
 

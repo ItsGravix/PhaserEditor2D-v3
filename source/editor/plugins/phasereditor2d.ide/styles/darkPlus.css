@@ -11,7 +11,7 @@ Important:
 
 .darkPlus body {
     background: #202020 !important;
-    color: #e0e0e0;
+    color: #b0b0b0;
 }
 
 /* a */
@@ -36,7 +36,7 @@ Important:
 
 .darkPlus input:focus, .darkPlus textarea:focus {
     background: #2a2a2a;
-    border-color: #f59c5c;
+    border-color: #007ACC;
     outline-style: none;
 }
 
@@ -100,8 +100,8 @@ Important:
 
 /* Part */
 
-.darkPlus .TabPane.activePart .TabPaneLabel.selected {
-    box-shadow: inset 0px 2px 0px #f0a050;
+.darkPlus .TabPane.activePart .TabPaneLabel.selected {    
+    box-shadow: inset 0px 2px 0px #007ACC;
 }
 
 .darkPlus .TabPane.activePart .TabPaneContentArea,
@@ -163,32 +163,30 @@ Important:
 /* Toolbar */
 
 .darkPlus .ToolbarItem {
-    background: #323232;
-    border-color: #646464;
+    background: #323232;    
     text-shadow: 1px 1px #0e0e0e;
+    border-style: none;
 }
 
 .darkPlus .ToolbarItem:hover,
 .darkPlus .IconButton:hover {
-    background: #424242;
-    border-color: #757575;
+    background: #424242;    
 }
 
 .darkPlus .ToolbarItem:active,
-.darkPlus .ToolbarItem.ActionSelected,
 .darkPlus .IconButton:hover {
     background: rgba(255, 255, 255, 0.3);
 }
 
 .darkPlus .ToolbarItem.ActionSelected {
-    border-color: #858585;
+    background: rgba(255, 255, 255, 0.4);
 }
 
 
 /* ProgressBar */
 
-.darkPlus .ProgressBar {
-    background: #f0a050;
+.darkPlus .ProgressBar {    
+    background: #007ACC;
 }
 
 /* Dialog */
@@ -222,7 +220,7 @@ Important:
 }
 
 .darkPlus .MenuItem:hover, .darkPlus .MenuItemSelected {
-    background: #f0a050;
+    background: #007ACC;
     color: #0e0e0e;
 }
 

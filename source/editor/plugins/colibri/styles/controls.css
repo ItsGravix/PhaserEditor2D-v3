@@ -308,10 +308,9 @@ div.TabPaneTitleBar::-webkit-scrollbar {
     display: flex;
     float: left;
     margin-right: 5px;
-    padding: 5px;
-    border-radius: 3px;
-    border-style: solid;
-    border-width: 1px;
+    padding: 8px;
+    border-radius: 5px;
+    border-style: solid;    
 }
 
 .ToolbarItemHasTextAndIcon canvas {
