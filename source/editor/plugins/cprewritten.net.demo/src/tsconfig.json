@@ -1,0 +1,29 @@
+{
+    "extends": "../../../tsconfig-base.json",
+    "compilerOptions": {
+        "outFile": "../_out/cprewritten.net.demo.js"
+    },
+    "references": [                
+        {
+            "path": "../../colibri/src"
+        },
+        {
+            "path": "../../phasereditor2d.ide/src"
+        },
+        {
+            "path": "../../phasereditor2d.files/src"
+        },
+        {
+            "path": "../../phasereditor2d.scene/src"
+        },
+        {
+            "path": "../../phasereditor2d.phaser/src"
+        },
+        {
+            "path": "../../phasereditor2d.pack/src"
+        }
+    ],
+    "exclude": [
+        "../_out/"
+    ]
+}
